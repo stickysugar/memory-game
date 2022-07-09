@@ -1,0 +1,47 @@
+/* you can add to or change this. */
+#game {
+  width: 640px;
+  height: 640px;
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid black;
+  margin: auto;
+}
+
+/* #game div {
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+} */
+
+#game div {
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  /* display: inline-block; */
+  position: relative;
+  /* display: none; */
+}
+
+/* .backOfCard {
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  position: absolute;
+  background-color: white;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+*/
+
+/* #game .backOfcard {
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  display: inline-block;
+  position: absolute;
+}
